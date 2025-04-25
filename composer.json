@@ -18,5 +18,11 @@
             "email": "puneetsharma9@hotmail.com"
         }
     ],
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Puneetxp\\KvDb\\KvServiceProvider"
+        ]}
+    },
     "minimum-stability": "beta"
 }
