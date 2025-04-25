@@ -1,0 +1,21 @@
+{
+    "name": "puneetxp/kv-db-laravel",
+    "description": "Create a db with kv only use one table name envrioment which is the greate for small database may be large one if devloper like to but it target small. Which can use for the small structuress. It can handle everything.",
+    "type": "library",
+    "require": {
+        "laravel/framework": "^8.54"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Puneetxp\\KvDb\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "puneetxp",
+            "email": "puneetsharma9@hotmail.com"
+        }
+    ],
+    "minimum-stability": "beta"
+}
