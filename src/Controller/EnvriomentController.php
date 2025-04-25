@@ -2,7 +2,7 @@
 
 namespace Puneetxp\KvDb\Controller;
 
-use App\Models\Enviroment;
+use Punetxp\KvDb\Models\Enviroment;
 use App\Service\FileUpload;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
