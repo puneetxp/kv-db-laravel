@@ -6,9 +6,11 @@ use Illuminate\Support\ServiceProvider;
 
 class KvServiceProvider extends ServiceProvider
 {
+    use PublishesMigrations;
     public function boot()
     {
-        $this->loadMigrationsFrom(__DIR__ . '/Migrations');
+        $this->registerMigrations(__DIR__ . '/Migrations');
+
         $this->loadViewsFrom(__DIR__ . '/Views', 'kv-db');
     }
 
@@ -17,3 +19,4 @@ class KvServiceProvider extends ServiceProvider
         //
     }
 }
+
