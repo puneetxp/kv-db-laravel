@@ -10,7 +10,6 @@ class KvServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->registerMigrations(__DIR__ . '/Migrations');
-
         $this->loadViewsFrom(__DIR__ . '/Views', 'kv-db');
     }
 
