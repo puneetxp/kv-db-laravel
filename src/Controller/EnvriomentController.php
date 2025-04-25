@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Puneetxp\KvDb\Controller;
 
 use App\Models\Enviroment;
 use App\Service\FileUpload;

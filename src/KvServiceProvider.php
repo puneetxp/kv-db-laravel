@@ -1,6 +1,6 @@
 <?php
 
-namespace MyLaravelLibrary;
+namespace Puneetxp\KvDb;
 
 use Illuminate\Support\ServiceProvider;
 
