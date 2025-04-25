@@ -9,12 +9,10 @@ class KvServiceProvider extends ServiceProvider
     use PublishesMigrations;
     public function boot()
     {
-
-
         $this->publishes(
             [
-                __DIR__ . '/Migrations/2025_04_25_000001_create_envrioments_table.php' =>
-                $this->app->databasePath('database/migrations' . now()->format('Y_m_d_His') . '_create_envrioments_tabl.php')
+                __DIR__ . '/Migrations/2025_04_25_000001_create_environments_table.php' =>
+                $this->app->databasePath('database/migrations/' . now()->format('Y_m_d_His') . '_create_environments_table.php')
             ],
             'migrations'
         );
